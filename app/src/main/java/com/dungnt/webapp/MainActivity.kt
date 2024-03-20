@@ -86,7 +86,7 @@ class MainActivity : AppCompatActivity() {
             val osName = System.getProperty("os.name")
             val osVersion = System.getProperty("os.version")
             val osArch = System.getProperty("os.arch")
-            return "OS Name: $osName, OS Version: $osVersion, OS Architecture: $osArch"
+            return "$osName, $osVersion, $osArch"
         }
     }
 }
